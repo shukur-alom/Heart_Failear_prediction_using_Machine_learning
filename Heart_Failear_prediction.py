@@ -23,5 +23,5 @@ if smoking == 'y' or smoking == 'yes': smoking_b = 1
 else:smoking_b = 0
 time = float(input('Follow-up period (days) : '))
 ans = heart_failear.predict([[age,anaemia_b,creatinine_phosphokinase,diabetes_b,ejection_fraction,high_blood_pressure_b,platelets,serum_creatinine,serum_sodium,sex_b,smoking_b,time]])
-if ans == 1: print(f'DEATH EVENT : Yes')
+if ans[0] == 1: print(f'DEATH EVENT : Yes')
 else:print(f'DEATH EVENT : No')
