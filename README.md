@@ -11,7 +11,6 @@ Heart failure is a critical medical condition that requires timely intervention.
 - [Features](#features)
 - [Requirements](#requirements)
 - [Installation](#installation)
-- [Usage](#usage)
 
 ## Introduction
 
@@ -35,7 +34,7 @@ To run this project, you will need the following:
 1. Clone this repository to your local machine:
 
 ```shell
-   git clone https://github.com/yourusername/heart-failure-prediction.git
+   git clone https://github.com/shukur-alom/Heart_Failear_prediction_using_Machine_learning.git
 ```
 
 2. Install the required Python libraries using pip:
