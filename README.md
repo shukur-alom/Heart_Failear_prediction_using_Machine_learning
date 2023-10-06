@@ -37,3 +37,15 @@ To run this project, you will need the following:
 ```shell
    git clone https://github.com/yourusername/heart-failure-prediction.git
 ```
+
+2. Install the required Python libraries using pip:
+
+```shell
+   pip install scikit-learn==0.22.1
+```
+
+3. Python script to Run
+
+```shell
+   python main.py
+```
